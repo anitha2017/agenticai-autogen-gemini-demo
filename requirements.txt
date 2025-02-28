@@ -2,5 +2,5 @@ autogen-agentchat[llm,gemini]~=0.2
 autogen
 google-generativeai 
 vertexai
-ag2[gemini]
+ag2[gemini,openai]
 agentops
