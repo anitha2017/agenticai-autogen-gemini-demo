@@ -3,7 +3,9 @@ This lab practice demonstrates how to get started with [Autogen](https://github.
 
 # Create and Navigate to Demo folder
 Clone autogen experiments from Developer advocate.
-	git clone https://github.com/anitha2017/agenticai-autogen-demo.git
+
+	$ cd <parent directory>
+	$ git clone https://github.com/anitha2017/agenticai-autogen-gemini-demo.git
 
 # Create and activate the virtual environment
 	$ python3 -m venv .venv
@@ -22,7 +24,7 @@ Clone autogen experiments from Developer advocate.
 # Get the API keys and populate the keys in model_config.json
 https://aistudio.google.com/app/apikey
 
-# Download and Install ollama , then run gemma model.
+# Download and Install ollama using https://ollama.com/ , then run gemma model.
 
 	## list and run ollama model
 	
@@ -52,12 +54,12 @@ https://aistudio.google.com/app/apikey
         }
     }'
 	
-# Run the Agent program.
+# Run the Multi-Agent lab program.
 	
 	$ python cfp1-multi-agent-interaction.py
 	$ python cfp2-multi-agent-interaction.py
 	$ python human-autoagent-interaction-using-gemini.py
-	$ human-autoagent-interaction-using-local_llm_gemma.py
+	$ python human-autoagent-interaction-using-local_llm_gemma.py
 
 # References:
 
