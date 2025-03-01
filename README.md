@@ -55,11 +55,20 @@ https://aistudio.google.com/app/apikey
     }'
 	
 # Run the Multi-Agent lab program.
+
+https://microsoft.github.io/autogen/0.2/assets/images/autogen_agents-b80434bcb15d46da0c6cbeed28115f38.png
 	
 	$ python cfp1-multi-agent-interaction.py
 	$ python cfp2-multi-agent-interaction.py
 	$ python human-autoagent-interaction-using-gemini.py
 	$ python human-autoagent-interaction-using-local_llm_gemma.py
+
+# Install and Run AutogenStudio for interactive UI
+
+	$ pip install autogenstudio
+	$ pip install playwright
+	$ playwright install
+	$ autogenstudio ui --port 8082 --appdir .
 
 # References:
 
